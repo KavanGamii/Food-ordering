@@ -1,0 +1,545 @@
+@media (max-width: 1400px) {
+    .food-delivery h3 {
+        font-size: 20px;
+    }
+
+    .easy-payments h3 {
+        font-size: 20px;
+    }
+
+    .exact-calories h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .carts {
+        padding: 60px 0px;
+    }
+
+    .hero-details h1 {
+
+        font-size: 90px;
+    }
+
+    .hero-details h2 {
+        font-size: 50px;
+    }
+
+    .hero-details p {
+        font-size: 16px;
+    }
+
+    .food-delivery h3 {
+        font-size: 18px;
+    }
+
+    .food-delivery p {
+        font-size: 14px;
+    }
+
+    .easy-payments p {
+        font-size: 14px;
+    }
+
+    .exact-calories p {
+        font-size: 14px;
+    }
+
+    .egg-tofu-common h1 {
+        font-size: 30px;
+    }
+
+    .egg-tofu-common p {
+        font-size: 14px;
+    }
+
+    .egg-tofu-common h5 {
+        font-size: 14px;
+    }
+
+    .get-in-touch button {
+        width: 66%;
+    }
+
+    .hero-inner h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 991px) {
+    .common-btn {
+        padding: 6px 20px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+
+    .hero-details h1 {
+        font-size: 60px;
+    }
+
+    .hero-details h2 {
+        font-size: 30px;
+    }
+
+    .hero-details p {
+        font-size: 12px;
+    }
+
+    .carts {
+        padding: 50px 0px;
+    }
+
+    .food-delivery h3 {
+        font-size: 22px;
+    }
+
+    .easy-payments h3 {
+        font-size: 22px;
+    }
+
+    .exact-calories h3 {
+        font-size: 22px;
+    }
+
+    .healthy-details h2 {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .healthy-details p {
+        font-size: 14px;
+    }
+
+    .popular-dishes h5 {
+        font-size: 30px;
+    }
+
+    .popular-dishes p {
+        font-size: 20px;
+    }
+
+    .add-to-cart {
+        width: 70%;
+    }
+
+    .main-client h3 {
+        font-size: 34px;
+    }
+
+    .main-client p {
+        font-size: 26px;
+    }
+
+    .main-client {
+        padding: 30px 0px;
+    }
+
+    .main-client img {
+        max-width: 50%;
+    }
+
+    .free-delivery-details {
+        padding: 32px 46px !important;
+        width: 100%;
+    }
+
+    .input-details {
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    .submit-btn {
+        width: 80%;
+    }
+
+    .newsletter h1 {
+        font-size: 18px;
+
+    }
+
+    .newsletter p {
+        font-size: 10px;
+        padding: 10px 0px !important;
+    }
+
+    .newsletter input {
+        width: 94%;
+        border: none;
+        border-radius: 50px;
+        padding: 4px 0px 4px 12px;
+    }
+
+
+    .common-details {
+        padding-right: 10px !important;
+    }
+
+    .common-parents {
+        width: 80%;
+    }
+
+    .get-in-touch button {
+        width: 100%;
+    }
+
+    .hero-inner h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .common-btn {
+        padding: 6px 16px;
+        font-size: 10px;
+        border-radius: 50px;
+    }
+
+    .hero-details h1 {
+        font-size: 46px;
+    }
+
+    .hero-details h2 {
+        font-size: 20px;
+    }
+
+    .hero-details p {
+        font-size: 10px;
+    }
+
+    .tasty-food {
+        background: rgb(250, 255, 237);
+        background: linear-gradient(106deg, rgba(250, 255, 237, 1) 0%, rgba(207, 220, 172, 0.9585084033613446) 50%, rgba(250, 255, 237, 1) 100%);
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+
+    .healthy-img img {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .health-btn {
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .healthy-details {
+        padding: 10px 20px;
+    }
+
+    .only-natural-food {
+        margin: 50px 0px;
+    }
+
+    .egg-tofu-common h5 {
+        font-size: 20px;
+    }
+
+    .egg-tofu-common {
+        background: rgb(250, 255, 237);
+        background: linear-gradient(106deg, rgba(250, 255, 237, 1) 0%, rgba(207, 220, 172, 0.9585084033613446) 50%, rgba(250, 255, 237, 1) 100%);
+        margin-bottom: 30px;
+        border-radius: 16px;
+        padding: 16px 0px;
+    }
+
+    .egg-tofu-common p {
+        max-width: 100%;
+    }
+
+    .tofu-btn {
+
+        font-size: 14px;
+        width: 46%;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .egg-btn {
+        font-size: 14px;
+        width: 46%;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .add-to-cart {
+        font-size: 20px !important;
+    }
+
+    .popular-dishes-heading h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .popular-dishes p {
+        font-size: 16px;
+    }
+
+    .input-details {
+        margin-top: 40px;
+        padding: 0px !important
+    }
+
+    .newsletter img {
+        display: none;
+    }
+
+    .newsletter h1 {
+        font-size: 30px;
+    }
+
+    .newsletter p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .contact-details {
+        margin-bottom: 20px;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+
+    .common-parents {
+        width: 100%;
+    }
+
+    .hero-inner h1 {
+        font-size: 50px;
+    }
+
+    .hero-inner p {
+        font-size: 14px;
+    }
+
+    .hr-lines::after {
+        display: none;
+    }
+
+    .hr-lines::before {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .carts {
+        padding: 20px 0px;
+    }
+
+    .foot-explore ul {
+        line-height: 30px;
+    }
+
+    .foot h4 {
+        position: relative;
+        font-size: 18px;
+        padding: 0px !important;
+        margin: 10px 0px;
+    }
+
+    .foot h4:after {
+
+        bottom: -2px;
+    }
+
+    .foot h4:hover:after {
+        width: 15%;
+    }
+
+    .hero-image img {
+        display: none;
+    }
+
+    .hero-details {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-details p {
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    .tasty-food {
+        margin-bottom: 25px;
+    }
+
+    .only-natural-food {
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    .common-btn {
+
+        font-size: 14px;
+
+    }
+
+    .healthy-details h2 {
+        font-size: 24px;
+    }
+
+    .healthy-details p {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .health-btn {
+        height: 44px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .egg-tofu-common {
+        padding: 20px 20px;
+        margin-bottom: 25px;
+    }
+
+    .egg-tofu-common h1 {
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .egg-tofu-common p {
+        font-size: 16px;
+    }
+
+    .popular-dishes-heading {
+        padding-top: 20px;
+    }
+
+    .common-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .main-client h3 {
+        font-size: 28px;
+    }
+
+    .main-client p {
+        font-size: 20px;
+    }
+
+
+    .input-details input {
+        width: 92%;
+    }
+
+    .input-details select {
+        width: 92%;
+    }
+
+    .submit-btn {
+        width: 92%;
+    }
+
+    .free-delivery-details h1 {
+        font-size: 30px;
+    }
+
+    .newsletter-btn {
+        width: 76%;
+    }
+
+    .common-heading h2 {
+        font-size: 32px;
+
+    }
+
+    .popular-dishes img {
+
+        margin-top: 30px
+    }
+
+    .common-parents {
+        width: 70%;
+    }
+
+    .common-child {
+        align-items: center;
+        text-align: center;
+    }
+
+    .common-parents p {
+        font-size: 14px;
+    }
+
+    .get-in-touch button {
+
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+
+    .hero-inner h1 {
+        font-size: 40px;
+    }
+
+    .hero-inner p {
+        font-size: 12px;
+    }
+
+    .common-special h4 {
+        font-size: 16px;
+    }
+
+    .common-special p {
+        font-size: 12px;
+    }
+
+    .common-special img {
+        border-radius: 50% 0% 50% 0%;
+    }
+
+    .menu-hero-inner {
+        width: 80%;
+    }
+
+    .menu-hero-inner h1 {
+        font-size: 36px;
+    }
+
+    .menu-hero-inner p {
+        font-size: 14px;
+    }
+
+    .commons-hr {
+        width: 70%;
+    }
+
+    .common-text {
+        padding: 14px 20px !important;
+        width: 80%;
+    }
+
+    .common-text p {
+        font-size: 12px;
+    }
+
+    .common-text h1 {
+        font-size: 20px;
+    }
+
+    .common-parents {
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+        margin: 6px 0px;
+    }
+
+    .image-gallery {
+        padding-bottom: 0px !important;
+    }
+}

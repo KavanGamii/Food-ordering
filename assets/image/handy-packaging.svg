@@ -1,0 +1,17 @@
+<svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50.5" cy="50" r="50" fill="#8CBD37"/>
+<mask id="mask0_113_8083" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="24" y="24" width="54" height="53">
+<path d="M24.5 24.33H77.17V77H24.5V24.33Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_113_8083)">
+<path d="M65.7103 25.8711C67.5351 25.8711 69.016 27.352 69.016 29.1767C69.016 31.0005 67.5351 32.4823 65.7103 32.4823C63.8865 32.4823 62.4048 31.0005 62.4048 29.1767C62.4048 27.352 63.8865 25.8711 65.7103 25.8711Z" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.6686 44.4736C70.6686 39.9846 68.8853 35.6783 65.7112 32.5042H65.7102C62.536 35.6783 60.752 39.9846 60.752 44.4736V75.4768H70.6686V44.4736Z" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60.7518 44.4735C60.7518 39.9845 62.536 35.6782 65.7101 32.504H35.9599C32.7857 35.6782 31.0015 39.9845 31.0015 44.4735V75.4767H60.7518V44.4735Z" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.4875 53.9597H39.2651C39.2651 50.3103 42.2278 47.3484 45.8762 47.3484C49.5257 47.3484 52.4875 50.3103 52.4875 53.9597Z" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45.8762 47.3983V45.7456" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.6128 53.9597H54.1408" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.6128 62.2324H54.1408" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.5713 68.8573H49.1825" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65.7104 32.4823H35.9601C34.1363 32.4823 32.6545 31.0006 32.6545 29.1767C32.6545 27.352 34.1363 25.8711 35.9601 25.8711H65.7104C63.8866 25.8711 62.4049 27.352 62.4049 29.1767C62.4049 31.0006 63.8866 32.4823 65.7104 32.4823Z" stroke="white" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
