@@ -600,6 +600,7 @@ hr {
 }
 
 .icon i:hover {
+    font-size:22px;
     background-color: var(--common-background);
     color: var(--common-btn-);
 }
