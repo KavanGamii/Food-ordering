@@ -595,12 +595,12 @@ hr {
     font-size: 14px;
     background: var(--common-btn-);
     border-radius: 100%;
-    transition: 0.5s;
+    transition: 0.6s;
     cursor: pointer;
 }
 
 .icon i:hover {
-    font-size:22px;
+    font-size: 22px;
     background-color: var(--common-background);
     color: var(--common-btn-);
 }
