@@ -50,13 +50,70 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contactus.html">Contact us</a>
                         </li>
-                        <button type="button">Login</button>
+                        <!-- <button type="button">Login</button> -->
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Signup
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Signup Details</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body py-4">
+                                        <!-- <label for="">Name:</label>
+                                            <input type="text" class="form-control">
+                                            <label for="">Email:</label>
+                                            <input type="email" class="form-control">
+                                            <label for="">Password:</label>
+                                            <input type="password" class="form-control">
+                                            <label for="">Confirm Password:</label>
+                                            <input type="password" class="form-control">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with
+                                                    anyone else.</div>
+                                            </div>
+                                            <label for="inputPassword5" class="form-label">Password</label>
+                                            <input type="password" id="inputPassword5" class="form-control"
+                                                aria-describedby="passwordHelpBlock">
+                                            <div id="passwordHelpBlock" class="form-text">
+                                                Your password must be 8-20 characters long.
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Confirm
+                                                    Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Terms &
+                                                    Condition</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary signup-btn">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
-        </nav>
-
-        <!-- get-in-touch -->
+        </nav <!-- get-in-touch -->
         <div class="get-in-touch">
             <div class="container">
                 <div class="contact-head text-center p-5">
