@@ -164,11 +164,10 @@ a:hover {
     background-color: var(--black);
 }
 
-/* main cart */
-.main {
-    background:
-        #FBFBFB;
+/* header cart */
 
+.main {
+    background: #FBFBFB;
 }
 
 .main-cart i {
@@ -192,18 +191,15 @@ a:hover {
     transition: 0.8s;
 }
 
-.navbar-expand-lg {
+.navbar {
     position: sticky;
     top: 0;
+    z-index: 100000;
     background: white;
-    z-index: 10;
-
 }
 
 .navbar button:hover {
     background-color: var(--black);
-
-
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -212,6 +208,12 @@ a:hover {
 
 .navbar-expand-lg .navbar-nav {
     gap: 20px;
+}
+
+.signup-btn {
+    font-size: 20px;
+    padding: 4px;
+    width: 100%;
 }
 
 /* Hero-Section Start */

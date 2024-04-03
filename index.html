@@ -22,11 +22,12 @@
         <div class="container">
             <div class="main-cart">
                 <div class="d-flex justify-content-end">
-                    <i class="fa-solid fa-cart-shopping py-2 pr-5"></i>
+                    <h1 class="header-cart"><i class="fa-solid fa-cart-shopping py-2 pr-5"></i></h1>
                 </div>
             </div>
         </div>
     </div>
+
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <img href="index.html" src="./assets/image/logo.png" alt="company logo">
@@ -49,11 +50,71 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contactus.html">Contact us</a>
                     </li>
-                    <button type="button">Login</button>
+                    <!-- <button type="button">Login</button> -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Signup
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Signup Details</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body py-4">
+                                    <!-- <label for="">Name:</label>
+                                        <input type="text" class="form-control">
+                                        <label for="">Email:</label>
+                                        <input type="email" class="form-control">
+                                        <label for="">Password:</label>
+                                        <input type="password" class="form-control">
+                                        <label for="">Confirm Password:</label>
+                                        <input type="password" class="form-control">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <label for="inputPassword5" class="form-label">Password</label>
+                                        <input type="password" id="inputPassword5" class="form-control"
+                                            aria-describedby="passwordHelpBlock">
+                                        <div id="passwordHelpBlock" class="form-text">
+                                            Your password must be 8-20 characters long.
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Confirm
+                                                Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Terms &
+                                                Condition</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary signup-btn">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </ul>
             </div>
         </div>
     </nav>
+
     <!-- hero Section start -->
     <div class="hero-section">
         <div class="container">
@@ -63,10 +124,12 @@
                         <div class="hero-details">
                             <h1>Organic</h1>
                             <h2><span>Food</span> Delivery Service</h2>
-                            <p class="mb-4 mb-sm-3">Step into a realm of culinary delight with Delicacy. Indulge in a
+                            <p class="mb-4 mb-sm-3">Step into a realm of culinary delight with Delicacy. Indulge in
+                                a
                                 plethora
                                 of
-                                flavors, from comforting classics to exotic specialties, all conveniently delivered to
+                                flavors, from comforting classics to exotic specialties, all conveniently delivered
+                                to
                                 your doorstep. Satisfaction guaranteed!</p>
                             <button class="common-btn readmore-btn">Read more</button> <button
                                 class="common-btn viewplan-btn ms-3 ">View
@@ -135,8 +198,10 @@
                                 of
                                 nourishing
                                 dishes crafted
-                                from wholesome, natural ingredients. Indulge guilt-free in our diverse menu, carefully
-                                curated to tantalize your taste buds while nourishing your body. Embrace a deliciously
+                                from wholesome, natural ingredients. Indulge guilt-free in our diverse menu,
+                                carefully
+                                curated to tantalize your taste buds while nourishing your body. Embrace a
+                                deliciously
                                 healthy lifestyle today!</p>
                             <button class="common-btn readmore-btn health-btn">Read more</button>
                         </div>
@@ -212,7 +277,8 @@
                     <div class="col-md-7 col-sm-12 px-sm-5">
                         <h1 class="pt-sm-2">Tofu and Lettuce Salad</h1>
                         <p class="py-3">Savor the refreshing crunch of crisp lettuce paired with tender tofu in our
-                            tantalizing Tofu and Lettuce Salad. Delicately seasoned and tossed in a zesty vinaigrette,
+                            tantalizing Tofu and Lettuce Salad. Delicately seasoned and tossed in a zesty
+                            vinaigrette,
                             it's a light and satisfying dish perfect for a nutritious meal or a refreshing side.</p>
                         <h5>Energy: <span class="text-danger">498 kkal</span></h5>
                         <h5>Protein: <span class="text-success">26 g</span></h5>
@@ -233,7 +299,8 @@
             <div class="common-heading">
                 <span>Our Menu</span>
                 <h2 class="py-2">Popular Dishes</h2>
-                <p>Explore our selection of popular dishes, crafted with passion and expertise to tantalize your taste
+                <p>Explore our selection of popular dishes, crafted with passion and expertise to tantalize your
+                    taste
                     buds. From savory classics to innovative culinary creations, each dish is meticulously prepared
                     using the finest ingredients to deliver an unforgettable dining experience.</p>
             </div>
@@ -278,7 +345,8 @@
                 <img class="py-4" src="./assets/image/quots.png" alt="quotes">
                 <p>Our clients rave about our service! From prompt delivery to delicious meals, they praise our
                     attention to detail and friendly staff. They commend our diverse menu options and appreciate the
-                    convenience of ordering. Their satisfaction is our top priority, driving us to continually exceed
+                    convenience of ordering. Their satisfaction is our top priority, driving us to continually
+                    exceed
                     expectations.</p>
             </div>
             <div class="row mt-5">
@@ -400,25 +468,29 @@
             <div class="delivery">
                 <div class="row">
                     <div class="col-lg-6 col-12">
-                        <div class="input-details py-5 px-5 text-center">
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email"><br>
-                            <input type="number" placeholder="Phone number">
-                            <select name="cars" id="cars">
-                                <option value="nutrition-plan">Nutrition plan</option>
-                                <option value="plan-1">plan-1</option>
-                                <option value="plan-2">plan-2</option>
-                                <option value="plan-3">plan-3</option>
-                            </select><br>
-                            <button class="submit-btn">Submit</button>
-                        </div>
+                        <form action="">
+                            <div class="input-details py-5 px-5 text-center">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email"><br>
+                                <input type="number" placeholder="Phone number">
+                                <select name="cars" id="cars">
+                                    <option value="nutrition-plan">Nutrition plan</option>
+                                    <option value="plan-1">plan-1</option>
+                                    <option value="plan-2">plan-2</option>
+                                    <option value="plan-3">plan-3</option>
+                                </select><br>
+                                <button class="submit-btn">Submit</button>
+                            </div>
+                        </form>
                     </div>
+
                     <div class="col-lg-6 col-12 ">
                         <div class="free-delivery-details py-5 px-5">
                             <h1>Free delivery<span> every day at your convenience</span></h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum a dolore quod, vero
                                 sapiente
-                                eius maxime temporibus harum ullam perspiciatis quisquam quae hic illum porro qui eos
+                                eius maxime temporibus harum ullam perspiciatis quisquam quae hic illum porro qui
+                                eos
                                 officia repellat non.</p>
                         </div>
                     </div>
@@ -437,7 +509,8 @@
                 </div>
                 <div class="col-md-7 col-12">
                     <h1>Subscribe to our newsletter</h1>
-                    <p class="py-3">Sign up for our newsletter and stay in the loop with the latest news, promotions,
+                    <p class="py-3">Sign up for our newsletter and stay in the loop with the latest news,
+                        promotions,
                         and exclusive offers. Join our community to receive regular updates, special discounts, and
                         insider tips straight to your inbox. Don't miss out on the chance to be the first to know –
                         subscribe now!</p>
@@ -589,6 +662,7 @@
     <script src="assets/js/vendor/carousel.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/vendor/jquery.scrollUp.min.js"></script>
+
 
 </body>
 

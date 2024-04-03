@@ -14,10 +14,21 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
 $(function () {
     $.scrollUp({
-        animation: 'slide',
         scrollText: '<i class="fa-solid fa-arrow-up"></i>',
         scrollSpeed: 1500
     });
+});
+$('form').submit(function () {
+    alert('From Submitted');
+})
+
+$('.readmore-btn').click(function () {
+    $('.hero-details p').fadeToggle(1000)
+
+})
+AOS.init({
+    once: true,
 });
