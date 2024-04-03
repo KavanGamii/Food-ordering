@@ -14,3 +14,10 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+$(function () {
+    $.scrollUp({
+        animation: 'slide',
+        scrollText: '<i class="fa-solid fa-arrow-up"></i>',
+        scrollSpeed: 1500
+    });
+});

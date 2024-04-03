@@ -104,6 +104,21 @@
     font-display: swap;
 }
 
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    border-radius: 50%;
+    background-color: var(--common-btn-);
+    color: #fff;
+    transition: 1s;
+}
+
+#scrollUp:hover {
+    background-color: var(--main-btn-);
+    color: #fff;
+}
+
 body {
     font-family: 'Fira Sans';
 }
@@ -557,6 +572,7 @@ hr {
 }
 
 .foot-explore a:hover {
+    padding-left: 5px;
     color: var(--common-btn-);
 }
 
@@ -594,11 +610,12 @@ hr {
     font-size: 14px;
     background: var(--common-btn-);
     border-radius: 100%;
-    transition: 0.5s;
+    transition: 0.6s;
     cursor: pointer;
 }
 
 .icon i:hover {
+    font-size: 22px;
     background-color: var(--common-background);
     color: var(--common-btn-);
 }
