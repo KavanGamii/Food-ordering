@@ -212,8 +212,13 @@ a:hover {
 
 .signup-btn {
     font-size: 20px;
-    padding: 4px;
+    padding: 6px;
     width: 100%;
+}
+
+.signup-btn:hover {
+    letter-spacing: 2px;
+    padding: 5px;
 }
 
 /* Hero-Section Start */
@@ -684,7 +689,7 @@ section {
     background-color: var(--black);
     width: 60%;
     padding: 18px 22px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
 
 /* ************************************************************************************************** */
