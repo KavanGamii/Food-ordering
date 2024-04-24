@@ -14,15 +14,11 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-AOS.init({
-    offset: 50,
-    duration: 1000,
 
-});
 $(function () {
     $.scrollUp({
         scrollText: '<i class="fa-solid fa-arrow-up"></i>',
-        scrollSpeed: 1000
+        scrollSpeed: 1500
     });
 });
 $('form').submit(function () {
@@ -32,4 +28,22 @@ $('form').submit(function () {
 $('.readmore-btn').click(function () {
     $('.hero-details p').fadeToggle(1000)
 
+})
+AOS.init({
+    offset: 50,
+    duration: 1000,
+    once: true,
+});
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
 })

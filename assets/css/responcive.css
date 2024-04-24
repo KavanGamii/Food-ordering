@@ -542,4 +542,8 @@
     .image-gallery {
         padding-bottom: 0px !important;
     }
+
+    .cursor {
+        display: none;
+    }
 }
