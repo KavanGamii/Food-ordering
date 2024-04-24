@@ -194,7 +194,7 @@ a:hover {
 .navbar {
     position: sticky;
     top: 0;
-    z-index: 100000;
+    z-index: 100;
     background: white;
 }
 
@@ -916,8 +916,8 @@ iframe {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-transition: 1s ease;
-    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    transition: 1.5s ease;
     cursor: pointer;
 }
 

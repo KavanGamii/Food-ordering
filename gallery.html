@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/vendor/aos.css">
     <link rel="stylesheet" href="assets/css/vendor/slider_carousel.css">
     <link rel="stylesheet" href="assets/css/vendor/owlcarousel.css">
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
@@ -55,61 +56,7 @@
                         Signup
                     </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Signup Details</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body py-4">
-                                    <!-- <label for="">Name:</label>
-                                        <input type="text" class="form-control">
-                                        <label for="">Email:</label>
-                                        <input type="email" class="form-control">
-                                        <label for="">Password:</label>
-                                        <input type="password" class="form-control">
-                                        <label for="">Confirm Password:</label>
-                                        <input type="password" class="form-control">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
-                                    <form>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Name</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                                aria-describedby="emailHelp">
-                                            <div id="emailHelp" class="form-text">We'll never share your email with
-                                                anyone else.</div>
-                                        </div>
-                                        <label for="inputPassword5" class="form-label">Password</label>
-                                        <input type="password" id="inputPassword5" class="form-control"
-                                            aria-describedby="passwordHelpBlock">
-                                        <div id="passwordHelpBlock" class="form-text">
-                                            Your password must be 8-20 characters long.
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Confirm
-                                                Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1">
-                                        </div>
-                                        <div class="mb-3 form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Terms &
-                                                Condition</label>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary signup-btn">Submit</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </ul>
             </div>
         </div>
@@ -118,81 +65,86 @@
         <div class="menu-hero-text">
             <div class="container">
                 <div class="menu-hero-inner py-5">
-                    <h1>Gallery</h1>
-                    <p>View our captivating image gallery, a visual feast showcasing our delectable dishes, cozy
-                        ambiance, and joyful moments. Explore the vibrant colors and enticing presentations that await
-                        you. Let these images whet your appetite and inspire your next dining experience with us.</p>
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <h1>Gallery</h1>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                        <p>View our captivating image gallery, a visual feast showcasing our delectable dishes, cozy
+                            ambiance, and joyful moments. Explore the vibrant colors and enticing presentations that
+                            await
+                            you. Let these images whet your appetite and inspire your next dining experience with us.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="image-gallery py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-12 mb-5"><img src="./assets/image/gallery-page/1.jpg" alt=""></div>
-                <div class="col-md-4 col-sm-6 col-12 mb-5"><img src="./assets/image/gallery-page/2.jpg" alt=""></div>
-                <div class="col-md-4 col-sm-6 col-12 mb-5"><img src="./assets/image/gallery-page/3.jpg" alt=""></div>
-                <div class="col-md-4 col-sm-6 col-12 mb-5"><img src="./assets/image/gallery-page/4.jpg" alt=""></div>
-                <div class="col-md-4 col-sm-6 col-12 mb-5"><img src="./assets/image/gallery-page/5.jpg" alt=""></div>
-                <div class="col-md-4 col-sm-6 col-12 mb-5"><img src="./assets/image/gallery-page/6.jpg" alt=""></div>
-
-            </div>
-        </div>
-    </div> -->
     <div class="image-gallery py-5">
         <div class="container">
             <div class="row justify-content-evenly">
                 <div class="col-sm-5 col-12 mb-5 gallery-img p-0">
-                    <img src="./assets/image/gallery-page/1.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                        <div class="text">
-                            <h3>Brew Haven Cafe</h3>
-                            <p>Location : New York</p>
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                        <img src="./assets/image/gallery-page/1.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Brew Haven Cafe</h3>
+                                <p>Location : New York</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-5 col-12 mb-5 gallery-img p-0">
-                    <img src="./assets/image/gallery-page/2.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                        <div class="text">
-                            <h3>Cuppa Cove</h3>
-                            <p>Location : Australia</p>
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <img src="./assets/image/gallery-page/2.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Cuppa Cove</h3>
+                                <p>Location : Australia</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-5 col-12 mb-5 gallery-img p-0">
-                    <img src="./assets/image/gallery-page/3.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                        <div class="text">
-                            <h3>Perk Palace</h3>
-                            <p>Location : Spain</p>
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                        <img src="./assets/image/gallery-page/3.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Perk Palace</h3>
+                                <p>Location : Spain</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-5 col-12 mb-5 gallery-img p-0">
-                    <img src="./assets/image/gallery-page/4.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                        <div class="text">
-                            <h3>Brewberry Café</h3>
-                            <p>Location : Italy</p>
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <img src="./assets/image/gallery-page/4.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Brewberry Café</h3>
+                                <p>Location : Italy</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-5 col-12 mb-5 gallery-img p-0">
-                    <img src="./assets/image/gallery-page/5.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                        <div class="text">
-                            <h3>Wake Up Call Cafe</h3>
-                            <p>Location : United Kingdom</p>
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                        <img src="./assets/image/gallery-page/5.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Wake Up Call Cafe</h3>
+                                <p>Location : United Kingdom</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-5 col-12 mb-5 gallery-img p-0">
-                    <img src="./assets/image/gallery-page/6.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                        <div class="text">
-                            <h3>Mocha Muse</h3>
-                            <p>Location : France</p>
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <img src="./assets/image/gallery-page/6.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Mocha Muse</h3>
+                                <p>Location : France</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,65 +157,75 @@
                 <div class="foot p-4">
                     <div class="row">
                         <div class="col-lg-3 col-md-8">
-                            <div class="logo pb-4 pt-sm-4">
-                                <img src="./assets/image/logo.png" alt="logo">
+                            <div data-aos="fade-down" data-aos-duration="1000">
+                                <div class="logo pb-4 pt-sm-4">
+                                    <img src="./assets/image/logo.png" alt="logo">
 
-                            </div>
-                            <div class="logo-p">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum
-                                    has been the industry's standard. Lorem Ipsum is simply dummy text.</p>
+                                </div>
+                                <div class="logo-p">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem
+                                        Ipsum
+                                        has been the industry's standard. Lorem Ipsum is simply dummy text.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-4">
-                            <div class="foot-explore">
-                                <ul>
-                                    <li>
-                                        <h4 class="pb-4 mt-sm-4">Explore</h4>
-                                    </li>
-                                    <li><img src="./assets/image/Vector.svg" class="pe-1"><a href="index.html">Home</a>
-                                    </li>
-                                    <li><img src="./assets/image/Vector.svg" class="pe-1"><a
-                                            href="gallery.html">Blog</a></li>
-                                    <li><img src="./assets/image/Vector.svg" class="pe-1"><a
-                                            href="menu.html">Product</a>
-                                    </li>
-                                    <li><img src="./assets/image/Vector.svg" class="pe-1"><a
-                                            href="index.html #our-cli">Client</a>
-                                    </li>
-                                    <li><img src="./assets/image/Vector.svg" class="pe-1"><a
-                                            href="contactus.html">Contact Us</a>
-                                    </li>
-                                </ul>
+                            <div data-aos="fade-up" data-aos-duration="1000">
+                                <div class="foot-explore">
+                                    <ul>
+                                        <li>
+                                            <h4 class="pb-4 mt-sm-4">Explore</h4>
+                                        </li>
+                                        <li><img src="./assets/image/Vector.svg" class="pe-1"><a
+                                                href="index.html">Home</a>
+                                        </li>
+                                        <li><img src="./assets/image/Vector.svg" class="pe-1"><a
+                                                href="gallery.html">Blog</a></li>
+                                        <li><img src="./assets/image/Vector.svg" class="pe-1"><a
+                                                href="menu.html">Product</a>
+                                        </li>
+                                        <li><img src="./assets/image/Vector.svg" class="pe-1"><a
+                                                href="#our-cli">Client</a>
+                                        </li>
+                                        <li><img src="./assets/image/Vector.svg" class="pe-1"><a
+                                                href="contactus.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-8">
-                            <div class="foot-contact">
-                                <ul>
-                                    <li>
-                                        <h4 class="pb-4 mt-sm-4">Contact Info</h4>
-                                    </li>
-                                    <li><i class="fa-solid fa-location-dot pe-2"></i><span>Address :</span> 101
-                                        Lincoln
-                                        Street, London, 109287</li>
-                                    <li><i class="fa-solid fa-phone pe-2 py-3"></i><span>Phone :</span>
-                                        <a href="tel:6031112298">+120394856761</a>
-                                    </li>
-                                    <li><i class="fa-solid fa-envelope pe-2"></i><span>Email :</span>
-                                        <a href="mailto:email@example.com, support@gmail.com">support@gmail.com</a>
-                                    </li>
-                                </ul>
+                            <div data-aos="fade-down" data-aos-duration="1000">
+                                <div class="foot-contact">
+                                    <ul>
+                                        <li>
+                                            <h4 class="pb-4 mt-sm-4">Contact Info</h4>
+                                        </li>
+                                        <li><i class="fa-solid fa-location-dot pe-2"></i><span>Address :</span> 101
+                                            Lincoln
+                                            Street, London, 109287</li>
+                                        <li><i class="fa-solid fa-phone pe-2 py-3"></i><span>Phone :</span>
+                                            <a href="tel:6031112298">+120394856761</a>
+                                        </li>
+                                        <li><i class="fa-solid fa-envelope pe-2"></i><span>Email :</span>
+                                            <a href="mailto:email@example.com, support@gmail.com">support@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-4">
-                            <div class="social-media">
-                                <h4 class="pb-4 mt-sm-4 ">Social Media</h4>
-                                <div class="icons d-flex">
-                                    <div class="icon">
-                                        <i class="fa-brands fa-instagram p-2"></i>
+                            <div data-aos="fade-up" data-aos-duration="1000">
+                                <div class="social-media">
+                                    <h4 class="pb-4 mt-sm-4 ">Social Media</h4>
+                                    <div class="icons d-flex">
+                                        <div class="icon">
+                                            <i class="fa-brands fa-instagram p-2"></i>
+                                        </div>
+                                        <div class="icon mx-2"><i class="fa-brands fa-twitter p-2"></i></div>
+                                        <div class="icon"><i class="fa-brands fa-facebook p-2"></i></div>
                                     </div>
-                                    <div class="icon mx-2"><i class="fa-brands fa-twitter p-2"></i></div>
-                                    <div class="icon"><i class="fa-brands fa-facebook p-2"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -286,8 +248,51 @@
             </div>
         </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Signup Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                anyone else.</div>
+                        </div>
+                        <label for="inputPassword5" class="form-label">Password</label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                        <div id="passwordHelpBlock" class="form-text">
+                            Your password must be 8-20 characters long.
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirm
+                                Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Terms &
+                                Condition</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary signup-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ************************************* -->
-
+    <script src="assets/js/vendor/aos.js"></script>
     <script src="assets/js/vendor/jquery.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
     <script src="assets/js/vendor/carousel.js"></script>

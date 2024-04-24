@@ -14,11 +14,15 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+AOS.init({
+    offset: 50,
+    duration: 1000,
 
+});
 $(function () {
     $.scrollUp({
         scrollText: '<i class="fa-solid fa-arrow-up"></i>',
-        scrollSpeed: 1500
+        scrollSpeed: 1000
     });
 });
 $('form').submit(function () {
@@ -29,6 +33,3 @@ $('.readmore-btn').click(function () {
     $('.hero-details p').fadeToggle(1000)
 
 })
-AOS.init({
-    once: true,
-});
