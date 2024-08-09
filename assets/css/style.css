@@ -182,7 +182,7 @@ a:hover {
 }
 
 /* Nav bar Start  */
-.navbar button {
+.signup {
     background-color: var(--common-btn-);
     color: var(--white);
     border: var(--common-btn-);
@@ -198,7 +198,7 @@ a:hover {
     background: white;
 }
 
-.navbar button:hover {
+.navbar .signup:hover {
     background-color: var(--black);
 }
 
@@ -214,11 +214,13 @@ a:hover {
     font-size: 20px;
     padding: 6px;
     width: 100%;
+    background-color: var(--common-btn-);
+    transition: 0.7s;
 }
 
 .signup-btn:hover {
-    letter-spacing: 2px;
-    padding: 5px;
+    background-color: var(--common-background);
+    background-color: var(--black);
 }
 
 /* Hero-Section Start */
@@ -416,24 +418,29 @@ a:hover {
     position: relative;
     color: var(--white);
     font-weight: 300;
+    padding: 50px 0px;
 }
 
 .input-details input {
     border-radius: 50px;
-    margin: 10px 14px;
+
     font-size: 16px;
     height: 44px;
-    width: 38%;
+    width: 100%;
     border: none;
     padding-left: 20px;
 }
 
+.submitbtn {
+    width: 50%;
+}
+
 .input-details select {
     border-radius: 50px;
-    margin: 10px 14px;
+
     font-size: 16px;
     height: 44px;
-    width: 38%;
+    width: 100%;
     border: none;
     padding-left: 20px;
 }
@@ -771,7 +778,7 @@ hr {
     display: block;
     position: absolute;
     top: 40%;
-    left: 524px;
+    left: 434px;
 }
 
 .hr-lines:after {
@@ -782,7 +789,7 @@ hr {
     display: block;
     position: absolute;
     top: 40%;
-    right: 524px;
+    right: 434px;
 }
 
 .today-special-heading {

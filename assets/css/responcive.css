@@ -10,6 +10,10 @@
     .exact-calories h3 {
         font-size: 20px;
     }
+
+    .submitbtn {
+        width: 25%;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -445,7 +449,7 @@
     }
 
     .free-delivery-details h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .newsletter-btn {
@@ -545,5 +549,19 @@
 
     .cursor {
         display: none;
+    }
+
+    .contact-btn {
+        width: 50%;
+    }
+
+    .delivery {
+        padding: 0px;
+
+    }
+
+    .submitbtn {
+        width: 92%;
+        margin-bottom: 20px;
     }
 }
