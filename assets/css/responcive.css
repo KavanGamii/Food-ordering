@@ -564,4 +564,8 @@
         width: 92%;
         margin-bottom: 20px;
     }
+
+    .signup {
+        padding: 10px 0px;
+    }
 }
